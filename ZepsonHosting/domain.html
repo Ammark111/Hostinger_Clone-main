@@ -130,98 +130,86 @@
 
 
         <div class="container p-5">
-            <style>
-                .search-box {
-                    margin: 100px auto;
-                    text-align: center;
-                }
-                
-                .btn-custom {
-                    background-color: #ff4081;
-                    color: white;
-                    border: none;
-                }
-                
-                .btn-custom:hover {
-                    background-color: #e91e63;
-                }
-                
-                .domain-options {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 20px;
-                }
-                
-                .domain-option {
-                    background-color: white;
-                    color: #1b1d9a;
-                    border: 1px solid #ddd;
-                    padding: 10px;
-                    border-radius: 5px;
-                    margin: 0 10px;
-                }
-                
-                .domain-option .original-price {
-                    text-decoration: line-through;
-                    color: grey;
-                }
-                
-                .domain-option .discount-price {
-                    font-weight: bold;
-                    font-size: 1.2em;
-                }
-            </style>
-            <form class="my-3" wire:submit.prevent="searchDomain" data-dashlane-rid="2b25d010386b2fd8">
-                <center>
-                    <div class="">
-                        <h4 class="fw-bold">Get a perfect domain for your business today!</h4>
-                        <p>Find the ideal domain name for your online project with our easy-to-use domain checker tool.</p>
-                        <div class="input-group mb-3 col-md-6">
-                            <input wire:model="domain" type="text" class="form-control" placeholder="Search domain" aria-label="Domain search" aria-describedby="button-search" data-dashlane-rid="d19b631e83b87de1">
-                            <div class="input-group-append">
-                                <button type="submit" class="btn btn-custom" id="button-search" data-dashlane-label="true" data-dashlane-rid="71a1775d973e3403">
+            <<<<<<< HEAD <style>
+                .search-box { margin: 100px auto; text-align: center; } .btn-custom { background-color: #ff4081; color: white; border: none; } .btn-custom:hover { background-color: #e91e63; } .domain-options { display: flex; justify-content: center; margin-top: 20px;
+                } .domain-option { background-color: white; color: #1b1d9a; border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin: 0 10px; } .domain-option .original-price { text-decoration: line-through; color: grey; } .domain-option .discount-price
+                { font-weight: bold; font-size: 1.2em; }
+                </style>
+                <form class="my-3" wire:submit.prevent="searchDomain" data-dashlane-rid="2b25d010386b2fd8">
+                    <center>
+                        <div class="">
+                            <h4 class="fw-bold">Get a perfect domain for your business today!</h4>
+                            <p>Find the ideal domain name for your online project with our easy-to-use domain checker tool.</p>
+                            <div class="input-group mb-3 col-md-6">
+                                <input wire:model="domain" type="text" class="form-control" placeholder="Search domain" aria-label="Domain search" aria-describedby="button-search" data-dashlane-rid="d19b631e83b87de1">
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-custom" id="button-search" data-dashlane-label="true" data-dashlane-rid="71a1775d973e3403">
                                     <span wire:loading.remove="">Search</span> <span wire:loading=""><i class="fa fa-spinner fa-spin"></i></span></button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="domain-options">
+                            <div class="domain-options">
+                                <!--[if BLOCK]><![endif]-->
+                                <div class="domain-option p-2">
+                                    <div class="original-price">36,000</div>
+                                    <div class="discount-price">30,000</div>
+                                    com
+                                </div>
+                                <div class="domain-option p-2">
+                                    <div class="original-price">24,000</div>
+                                    <div class="discount-price">20,000</div>
+                                    co.tz
+                                </div>
+                                <div class="domain-option p-2">
+                                    <div class="original-price">54,000</div>
+                                    <div class="discount-price">45,000</div>
+                                    org
+                                </div>
+                                <div class="domain-option p-2">
+                                    <div class="original-price">72,000</div>
+                                    <div class="discount-price">60,000</div>
+                                    tz
+                                </div>
+                                <div class="domain-option p-2">
+                                    <div class="original-price">36,000</div>
+                                    <div class="discount-price">30,000</div>
+                                    .com
+                                </div>
+                                <!--[if ENDBLOCK]><![endif]-->
+
+                            </div>
+
                             <!--[if BLOCK]><![endif]-->
-                            <div class="domain-option p-2">
-                                <div class="original-price">36,000</div>
-                                <div class="discount-price">30,000</div>
-                                com
-                            </div>
-                            <div class="domain-option p-2">
-                                <div class="original-price">24,000</div>
-                                <div class="discount-price">20,000</div>
-                                co.tz
-                            </div>
-                            <div class="domain-option p-2">
-                                <div class="original-price">54,000</div>
-                                <div class="discount-price">45,000</div>
-                                org
-                            </div>
-                            <div class="domain-option p-2">
-                                <div class="original-price">72,000</div>
-                                <div class="discount-price">60,000</div>
-                                tz
-                            </div>
-                            <div class="domain-option p-2">
-                                <div class="original-price">36,000</div>
-                                <div class="discount-price">30,000</div>
-                                .com
-                            </div>
                             <!--[if ENDBLOCK]><![endif]-->
 
                         </div>
-
-                        <!--[if BLOCK]><![endif]-->
-                        <!--[if ENDBLOCK]><![endif]-->
+                    </center>
+                </form>
+                =======
+                <div class="row">
+                    <div class="col-md-3 bg-dark h-700">
 
                     </div>
-                </center>
-            </form>
+                    <div class="col-md-9">
+                        <div class="p-4 bg-primary ">
+                            <div class="header h-400">
+                                <h1 class="text-lg">Register </h1>
+                            </div>
+                        </div>
+                        <div class="pt-4">
+                            <p>Find your new domain name. Enter your name or keywords below to check availability.</p>
+                        </div>
+                        <div class="card">
+                            <form action="" class="mt-5">
+                                <div class="d-flex">
+                                    <input type="text" class="form-control w-100">
+                                    <button class="btn btn-primary">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                >>>>>>> 1012b1c22e3a3349072ceded8362b8278ecc1397
         </div>
-
 
         <footer class="w-full" style="background-color:#F4F5FF">
             <div style="background-color:#F4F5FF" class="max-w-[1150px] w-11/12 flex md:flex-row flex-col mx-auto py-[80px] gap-[30px] justify-between">
